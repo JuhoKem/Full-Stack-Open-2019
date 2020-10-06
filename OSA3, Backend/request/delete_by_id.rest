@@ -1,0 +1,2 @@
+// kun käytät paikallisesti, varmista että portti on oikea, eli 3000 tai 3001
+DELETE http://localhost:3001/api/persons/5f7a141c6c93783a39329666
