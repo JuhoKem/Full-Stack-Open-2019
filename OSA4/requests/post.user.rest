@@ -1,0 +1,9 @@
+// kun käytät paikallisesti, varmista että portti on oikea, eli 3000 tai 3001
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "kimiok",
+    "name": "Kimi",
+    "password": "sekret"
+}

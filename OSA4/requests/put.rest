@@ -1,0 +1,2 @@
+// kun käytät paikallisesti, varmista että portti on oikea, eli 3000 tai 3001
+PUT  http://localhost:3001/api/blogs/5f84ac5bc9776870b5ef6942

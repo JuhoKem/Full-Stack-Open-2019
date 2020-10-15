@@ -1,0 +1,13 @@
+// kun käytät paikallisesti, varmista että portti on oikea, eli 3000 tai 3001
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer JhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtpbWlvayIsImlkIjoiNWY4ODlhNGY1ZGZkMTE3ZjNmZjZmNTYzIiwiaWF0IjoxNjAyNzg3OTY0fQ.F5CYi5GUXN2JXxfq7x4WiULCWgoiaGCRwbmon47q46k
+// authorization käytetään, kun halutaan käyttää tokenia eli autentikoidun käyttäjän tiedon
+// tokenin saa, kun kirjautuu login.js:llä
+
+{
+    "title": "Another try",
+    "author": "Axl ",
+    "url": "www.success.com",
+    "likes": 555
+}
